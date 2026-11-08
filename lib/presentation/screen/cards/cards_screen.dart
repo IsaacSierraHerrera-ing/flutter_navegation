@@ -24,6 +24,12 @@ class CardsScreen extends StatelessWidget {
               child: Text('Card con color personalizado'),
             ),
           ),
+          Card.filled(
+            child: const Padding(
+              padding: EdgeInsets.all(20),
+              child: Text('Card.filled'),
+            ),
+          ),
           Card.outlined(
             child: const Padding(
               padding: EdgeInsets.all(20),

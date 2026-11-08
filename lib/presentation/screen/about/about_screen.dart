@@ -12,7 +12,7 @@ class AboutScreen extends StatelessWidget {
         children: const [
           CircleAvatar(
             radius: 48,
-            child: Icon(Icons.person, size: 56),
+            backgroundImage: AssetImage('assets/images/luffy.jpg'),
           ),
           SizedBox(height: 24),
           Center(
